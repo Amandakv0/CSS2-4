@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+#mainContainer{
+    width: 100%;
+    text-align: center;
+}
+#mainImage{
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+}
+#loremIpsumParag{
+   /* position: absolute;*/
+    font-size: 45px;
+    color: black;
+    display: inline-block;
+}
+#secondSectionMainFrame{
+    width: 100%;
+    text-align: center;
+}
+#launchMainFrame{
+    display: inline-block;
+    margin-top: 80px;
+    border-radius: 24px;
+    background-color: #EBF8FE;
+    padding: 40px 32px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#launchParag{
+    font-weight: bold;
+    color: #181D27;
+    font-size: 40px;
+    padding: 24px;
+}
+#launchFirstParag{
+    text-align: left;
+    font-size: 30px;
+    column-rule: #535862;
+    padding-bottom: 24px;
+}
+#formFrame{
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    display: inline-block;
+}
+#formFrameInnerFrame{
+    display: inline-block;
+    text-align: left;
+}
+#emailFormBox{
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 12px 14px;
+}
+#subscribeButton{
+    border-radius: var(--radius-md, 8px);
+    border: 2px solid #FFF;
+    background: #007CB8;
+    padding: 12px 18px;
+    margin-left: 24px;
+}
+#weCareText{
+    color: #535862;
+    font-size: 14px;
+    padding-top: 8px;
+}
+#underlineText{
+    text-decoration-line: underline;
+}
+#submitFormMainFrame{
+    text-align: left;
+    width: 500px;
+    display: inline-block;
+    border-radius: 24px;
+    background: #EBF8FE;
+    padding: 40px 32px;
+}
+#submitFormHeader{
+    color: #181D27;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+label{
+    padding: 8px 0px;
+    font-size: 14px;
+    display: block;
+    color: #1B003D;
+}
+#nameTextBox, #emailForm{
+    border-radius: 8px;
+    border: 1px solid #380054;
+    padding: 8px 16px;
+    width: 440px;
+    margin-bottom: 20px;
+}
+#languageRadioLabe{
+    margin-top: 20px;
+}
+#radioForm{
+    display: inline-block;
+}
+#firstRadioYes, #secondRadioYes, #thirdRadioYes,
+#cPlusPlusLanguage, #cLanguage, #javaLan, #pythonLan{
+    display: inline-block;
+    color: #6D5F8B;
+    width: 410px;/* radios titoeul wevrs gavuwere width da  ams jobai rom titoeul radios div gavuwero?*/
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="CSS/mainStylesheet.css"/>
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div id="firstPartMainFrame"><!--es reallurad ar mwirdeba-->
+                <img id="mainImage" src="images/image (1).jpg"/>
+                <p id="loremIpsumParag">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed 
+                    do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam,
+                </p>
+            </div>
+            <div id="secondSectionMainFrame">
+                <div id="launchMainFrame">
+                        <p id="launchParag">
+                            Be the first 
+                            to know when we launch
+                        </p>
+                        <p id="launchFirstParag">
+                            We’re still building. 
+                            Subscribe for updates and 20% 
+                            off when we launch. No spam, 
+                            we promise!
+                        </p>
+                    <div id="formFrame">
+                        <div id="formFrameInnerFrame">
+                            <form>
+                                <input type="email" id="emailFormBox" placeholder="Enter your email"/>
+                                <input type="submit" id="subscribeButton" value="Subscribe"/>
+                            </form>
+                            <p id="weCareText">
+                                We care about your data in our <span id="underlineText">privacy policy.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="submitFormMainFrame">
+                <p id="submitFormHeader">
+                    Submit form
+                </p>
+                <form>
+                    <label for="nameTextBox">Full name</label>
+                    <input type="text" id="nameTextBox" placeholder="Please write your name"/>
+                    <label for="emailForm">Email</label>
+                    <input type="email" id="emailForm" placeholder="Please write your email"/>
+                    
+                    <label for="radioForm">Would you recomment 
+                        GeeksforGeeks to a friends?
+                    </label>
+                    <input type="radio" id="radioForm"/>
+                    <label id="firstRadioYes" for="radioForm">of course</label>
+
+                    <input type="radio" id="yes"/>
+                    <label id="secondRadioYes" for="yes">Yes</label>
+
+                    <input type="radio" id="thirdYes">
+                    <label id="thirdRadioYes" for="thirdYes">Yes</label>
+
+
+
+                    <label id="languageRadioLabe" for="languageRadio">Language and frameworks known
+                         (Checks all that apply)
+                    </label>
+                    <input type="checkbox" id="lnguageRadio"/>
+                    <label  id="cLanguage" for="languageRadio">C</label>
+
+                    <input type="checkbox" id="CPlusPlus">
+                    <label id="cPlusPlusLanguage" for="CPlusPlus">C++</label>
+
+                    <input type="checkbox" id="Java"/>
+                    <label id="javaLan" for="Java">Java</label>
+
+                    <input type="checkbox" id="python"/>
+                    <label id="pythonLan" for="python">Python</label>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
