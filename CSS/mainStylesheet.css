@@ -7,6 +7,15 @@
     width: 100%;
     text-align: center;
 }
+
+#imageFrame {
+    background-image: url("../images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
 #mainImage{
     width: 100%;
     max-width: 1000px;
@@ -14,7 +23,6 @@
 }
 #loremIpsumParag{
     color: #FFF;
-    margin-top: -800px;
     font-size: 40px;
     width: 100%;
     max-width: 1000px;
