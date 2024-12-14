@@ -23,7 +23,7 @@
 }
 #loremIpsumParag{
     color: #FFF;
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     max-width: 1000px;
     display: inline-block;
@@ -77,6 +77,7 @@
     background: #007CB8;
     padding: 12px 18px;
     margin-left: 24px;
+    color: #FFF;
 }
 #weCareText{
     color: #535862;
@@ -84,7 +85,7 @@
     padding-top: 8px;
 }
 #underlineText{
-    text-decoration-line: underline;
+    color: #535862;
 }
 #submitFormMainFrame{
     text-align: left;
@@ -93,6 +94,7 @@
     border-radius: 24px;
     background: #EBF8FE;
     padding: 40px 32px;
+    margin-bottom: 80px;
 }
 #submitFormHeader{
     color: #181D27;
